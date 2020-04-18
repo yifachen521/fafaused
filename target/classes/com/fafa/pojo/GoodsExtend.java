@@ -1,0 +1,36 @@
+package com.fafa.pojo;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+public class GoodsExtend implements Serializable {
+	private Goods goods;
+	private List<Image> images = new ArrayList<Image>();
+    private List<Comments> comments=new ArrayList<Comments>();
+
+    public Goods getGoods() {
+		return goods;
+	}
+	public void setGoods(Goods goods) {
+		this.goods = goods;
+	}
+	public List<Image> getImages() {
+		return images;
+	}
+	public void setImages(List<Image> images) {
+		this.images = images;
+	}
+	public List<Comments> getComments() {
+		return comments;
+	}
+	public void setComments(List<Comments> comments) {
+		this.comments = comments;
+	}
+	@Override
+	public String toString() {
+		return "GoodsExtend [goods=" + goods + ", images=" + images + ", comments=" + comments + "]";
+	}
+	
+	
+}

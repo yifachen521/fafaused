@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fafa.dao.OrderMapper">
+
+    <select id="findAllOrderByUserId" resultType="Order">
+        select o.id,sellerId,buyerId,goodsId,comment,o.status from `order` as o
+        LEFT JOIN goods
+        on o.goodsId =goods.id
+        where sellerId=#{id} And o.status=1 AND goods.`status`=1
+    </select>
+
+    <select id="findAllLostOrderByUserId" resultType="Order">
+        select id,sellerId,buyerId,goodsId,comment,status,orderTime from `order`  where sellerId=#{id} And status=0
+    </select>
+
+    <select id="findAllBuyerOrderByUserId" resultType="Order">
+        select id,sellerId,buyerId,goodsId,comment,status,orderTime from `order`  where buyerId=#{id}
+    </select>
+
+
+    <update id="confirmAnOrder">
+        update `order` set status=0,orderTime=#{0} where sellerId=#{1} And goodsId=#{2} And buyerId=#{3}
+    </update>
+
+    <insert id="addOrder">
+        insert into `order` (sellerId,buyerId,goodsId,comment)VALUES(#{sellerId},#{buyerId},#{goodsId},#{comment})
+    </insert>
+
+
+    <select id="getAllOrder" resultType="Order">
+        select id,sellerId,buyerId,goodsId,comment,status,orderTime from `order`
+        <where>
+            <if test="orderId!=null  ">
+                AND id=#{orderId}
+            </if>
+            <if test="status!=null ">
+                AND status=#{status}
+            </if>
+        </where>
+    </select>
+
+    <select id="getPageOrdersByOrders" resultType="Order">
+        select id,sellerId,buyerId,goodsId,comment,status,orderTime from `order`
+        <where>
+            <if test="orderId!=null  ">
+                AND id=#{orderId}
+            </if>
+            <if test="status!=null ">
+                AND status=#{status}
+            </if>
+        </where>
+        limit #{StartSearch},#{pageSize}
+    </select>
+
+    <select id="getOrderBySellIdAndGoodsId" resultType="Order">
+        select id,sellerId,buyerId,goodsId,comment,status,orderTime from `order`
+         where sellerId=#{0} And goodsId=#{1}
+    </select>
+
+
+    <update id="updateLossersOrder">
+        update `order` set status=2,orderTime='该商品已售出' where  buyerId=#{0} And goodsId=#{1}
+    </update>
+
+
+    <delete id="delOrderByid">
+        delete from `order` where id=#{id}
+    </delete>
+</mapper>
+

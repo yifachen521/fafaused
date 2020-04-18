@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fafa.dao.NoticeMapper">
+
+    <select id="findNoticeMessage" resultType="Notice">
+     select * from notice n where sell_id=#{0} order by n.build_time desc
+  </select>
+    <insert id="addBuyerMessage">
+	 insert into notice(sell_id,buyer_id,goods_name,context,build_time) values(#{sellId},#{buyerId},#{goodsName},#{context},#{buildTime})
+  </insert>
+
+
+    <select id="findRevertMessage" resultType="Revert">
+     select * from revert r where buyer_id=#{0} order by r.build_time desc
+  </select>
+    <insert id="addSellerMessage">
+	 insert into revert(sell_id,buyer_id,goods_name,context,build_time) values(#{sellId},#{buyerId},#{goodsName},#{context},#{buildTime})
+  </insert>
+
+    <select id="findAllBuyer" resultType="integer">
+      select distinct  buyer_id  bid from notice    where sell_id=#{sellId}
+  </select>
+
+
+    <select id="findAllNewMsg" resultType="Notice">
+      SELECT * from notice  where build_time =(select MAX(build_time) from notice where buyer_id=#{buyerId} ) and buyer_id=#{buyerId}
+  </select>
+
+    <select id="dialogueNoticeMessage" resultType="Notice">
+    	SELECT * from notice  where buyer_id=#{1} and sell_id=#{0} ORDER BY build_time asc
+  </select>
+
+    <select id="dialogueRevertMessage" resultType="Revert">
+     SELECT * from revert  where buyer_id=#{1} and sell_id=#{0} ORDER BY build_time asc
+  </select>
+
+
+</mapper>
