@@ -43,6 +43,15 @@
     color: #fff;
     padding: 10px 10px;
 }
+.setting-save1 {
+    width: 100px;
+    margin: 10px 50px 60px 45px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3db922;
+    color: #fff;
+    padding: 10px 10px;
+}
 .setting-save:hover {
     cursor: pointer;
 }

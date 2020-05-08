@@ -7,1041 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07d952b7-a046-49a9-8168-e3fb1ee82b2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1ef7adef-a941-4f60-936c-34a681c354f3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fafaUsed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fafaused.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/CatelogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/CatelogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/CommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/FocusMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/ImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/NoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Catelog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/CommentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/CommentExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Dialogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Focus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/GoodsExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/OrderExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/PageCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/Revert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/pojo/UserLike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/CatelogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/FocusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/CatelogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/FocusServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/ImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/NoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/DateSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/NavigationTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fafa/util/UserGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CatelogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FocusMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/aboutUs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/orders/orders_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_like.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/main-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/main-left-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/buyerOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/focus.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/forget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/main-left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/reset_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-combined.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/custom/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/detail.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/emoji.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/info_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.bootgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/materialize-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/matrix-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/matrix-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/matrix-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/mypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/userhome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/css/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Advertisement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/alpha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/commodity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/digital.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/file-1493726053986.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/findfun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/glyphicons-halflings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/home_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/larrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/makeup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mypurse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/nopic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/p_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/rarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ride.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/smallthing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/uplodeimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-paginator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/countUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/custom/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/index.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.bootgrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.complexify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/matrix.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_business.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_ipc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_singlechip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_square.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_taste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/aboutUs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/main_bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/main_left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/main_top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/orders/orders_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/user/user_like.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/error/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/editGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/main-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/main-left-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/basic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/buyerOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/focus.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/forget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/goods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/main-left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/reset_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/CatelogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/CatelogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/GoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/NoticeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/AdminMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/CatelogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/CatelogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/CommentsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/CommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/FocusMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/FocusMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/GoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/ImageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/ImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/NoticeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/NoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/OrderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Catelog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Catelog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/CommentData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/CommentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/CommentExtend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/CommentExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Comments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Dialogue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Dialogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Focus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Focus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/GoodsExtend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/GoodsExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Image.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Notice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/OrderExtend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/OrderExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/PageCut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/PageCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Revert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/Revert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/UserLike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/pojo/UserLike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/CatelogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/CatelogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/FocusService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/FocusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/GoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/ImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/NoticeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/CatelogServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/CatelogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/FocusServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/FocusServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/ImageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/ImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/NoticeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/NoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/DateSort$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/DateSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/DateSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/MailUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/NavigationTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/NavigationTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/StringUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/UserGrid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fafa/util/UserGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/generatorConfig.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/conf/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap-combined.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/custom/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/detail.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/emoji.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/info_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/jquery.bootgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/materialize-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/matrix-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/matrix-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/matrix-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/mypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/userhome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/css/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/font/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/font/fontawesome-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/Advertisement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/alpha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/commodity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/digital.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/file-1493726053986.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/findfun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/glyphicons-halflings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/home_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/larrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/makeup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/mypurse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/nopic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/p_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/rarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/ride.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/smallthing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/uplodeimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/bootstrap-paginator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/countUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/custom/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/index.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery.bootgrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery.complexify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery.md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/matrix.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_business.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_ipc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_singlechip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_square.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_taste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/script_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CatelogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/FocusMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/aboutUs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/main_bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/main_left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/main_top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/orders/orders_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/user/user_like.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/error/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/editGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/main-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/main-left-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/basic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/buyerOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/focus.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/forget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/goods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/main-left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/reset_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/CatelogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/CatelogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/GoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/NoticeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/AdminMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/CatelogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/CatelogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/CommentsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/CommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/FocusMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/FocusMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/GoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/ImageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/ImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/NoticeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/NoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/OrderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Catelog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Catelog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/CommentData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/CommentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/CommentExtend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/CommentExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Comments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Dialogue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Dialogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Focus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Focus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/GoodsExtend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/GoodsExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Image.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Notice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/OrderExtend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/OrderExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/PageCut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/PageCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Revert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/Revert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/UserLike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/pojo/UserLike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/CatelogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/CatelogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/FocusService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/FocusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/GoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/ImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/NoticeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/CatelogServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/CatelogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/FocusServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/FocusServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/ImageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/ImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/NoticeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/NoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/DateSort$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/DateSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/DateSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/MailUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/NavigationTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/NavigationTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/StringUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/UserGrid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/com/fafa/util/UserGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/conf/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/conf/generatorConfig.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/conf/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/conf/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/conf/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap-combined.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/custom/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/detail.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/emoji.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/info_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/jquery.bootgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/materialize-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/matrix-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/matrix-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/matrix-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/mypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/userhome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/css/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/font/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/font/fontawesome-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/Advertisement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/alpha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/commodity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/digital.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/file-1493726053986.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/findfun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/glyphicons-halflings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/home_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/larrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/makeup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/mypurse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/nopic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/p_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/rarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/ride.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/smallthing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/img/uplodeimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap-paginator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/countUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/custom/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/index.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery.bootgrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery.complexify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery.md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/matrix.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_business.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_ipc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_singlechip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_square.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_taste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/script_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/CatelogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/CommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/FocusMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/ImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.1.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/junit-jupiter-api-5.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/junit-platform-commons-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/mybatis-generator-core-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/poi-3.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/aboutUs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/main_bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/main_left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/main_top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/orders/orders_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/user/user_like.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/error/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/editGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/main-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/main-left-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/basic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/buyerOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/focus.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/forget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/goods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/main-left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/reset_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap-combined.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/bootstrap3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/custom/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/detail.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/emoji.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/info_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/jquery.bootgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/materialize-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/matrix-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/matrix-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/matrix-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/mypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/userhome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/css/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/font/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/font/fontawesome-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/Advertisement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/Descr.WD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/alpha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/commodity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/digital.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/file-1493726053986.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/findfun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/glyphicons-halflings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/home_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/larrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/makeup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/mypurse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/nopic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/p_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/rarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/ride.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/smallthing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/img/uplodeimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/bootstrap-paginator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/countUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/custom/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/index.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery.bootgrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery.complexify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery.md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/matrix.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_business.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_ipc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_singlechip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_square.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_taste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/script_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_like.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_like.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/updatePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/orders1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/updatePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/orders1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/updatePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/classes/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/orders1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/orders1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/updatePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/WEB-INF/pages/user/updatePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/fafaUsed-1.0-SNAPSHOT/css/user.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1062,37 +59,105 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="secondhandmarket: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="secondhandmarket: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="revert: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/NoticeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-344">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/dao/OrderMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/message.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1274">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_like.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1123,6 +188,11 @@
       <find>mysql</find>
       <find>btn_cart</find>
       <find>updataGoodsHeatnumById</find>
+      <find>个人中心</find>
+      <find>邮箱</find>
+      <find>orders</find>
+      <find>orders1</find>
+      <find>home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1131,12 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/main-left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orderDetail.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/main-left-info.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/detail.css" />
@@ -1172,16 +236,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fafa/service/NoticeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fafa/service/impl/NoticeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fafa/controller/NoticeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/message.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/main-info.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fafa/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/focus.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fafa/dao/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/reset_password.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/updatePwd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_like.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" />
       </list>
     </option>
   </component>
@@ -1234,10 +304,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="346" />
-    <option name="y" value="73" />
-    <option name="width" value="1347" />
-    <option name="height" value="690" />
+    <option name="x" value="-3" />
+    <option name="width" value="1935" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1245,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1277,7 +345,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fafa" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fafaUsed" type="b2602c69:ProjectViewProjectNode" />
@@ -1285,23 +353,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="fafa" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fafaUsed" type="b2602c69:ProjectViewProjectNode" />
               <item name="fafaUsed" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fafa" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fafaUsed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fafaUsed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fafaUsed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fafaUsed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fafaUsed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fafaUsed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fafaUsed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fafaUsed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1325,6 +426,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Software\internetExcierse\fafaUsed" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.fafa.pojo" />
     </key>
@@ -1679,7 +783,11 @@
       <workItem from="1586570789197" duration="4743000" />
       <workItem from="1586672780761" duration="229000" />
       <workItem from="1587086827127" duration="9214000" />
-      <workItem from="1587191200542" duration="231000" />
+      <workItem from="1587191200542" duration="897000" />
+      <workItem from="1587384973910" duration="2285000" />
+      <workItem from="1587713123281" duration="1769000" />
+      <workItem from="1588126836584" duration="5144000" />
+      <workItem from="1588818752676" duration="19600000" />
     </task>
     <task id="LOCAL-00001" summary="毕业设计">
       <created>1584067198714</created>
@@ -1702,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584069569969</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="毕业设计完工版本 撒花 耶">
+      <created>1587191771320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587191771320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1717,12 +832,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138393000" />
+    <option name="totallyTimeSpent" value="168088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.90392154" visible="true" weight="0.2829426" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.90392154" visible="true" weight="0.2271625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1732,7 +847,7 @@
       <window_info id="Web" order="7" sideWeight="0.09607843" side_tool="true" weight="0.24494745" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.064935066" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.39146566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5986842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1745,7 +860,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.055555556" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.60296845" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.21892393" />
       <window_info anchor="bottom" id="Problems" order="16" weight="0.32962963" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32962963" />
       <window_info anchor="bottom" id="JProfiler" order="18" />
@@ -1853,7 +968,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="毕业设计" />
     <MESSAGE value="毕业设计1" />
-    <option name="LAST_COMMIT_MESSAGE" value="毕业设计1" />
+    <MESSAGE value="毕业设计完工版本 撒花 耶" />
+    <option name="LAST_COMMIT_MESSAGE" value="毕业设计完工版本 撒花 耶" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1870,259 +986,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/pojo/Revert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/JDK/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="442" column="13" selection-start-line="442" selection-start-column="13" selection-end-line="442" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/JDK/Java/jdk1.8.0_131/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="388" column="46" selection-start-line="388" selection-start-column="38" selection-end-line="388" selection-end-column="46" />
-          <folding>
-            <element signature="e#23443#23444#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/ListSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/dao/NoticeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/pojo/Notice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/pojo/Dialogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/impl/NoticeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/NoticeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.2/mybatis-3.2.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/util/DateSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/JDK/Java/jdk1.8.0_131/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
-          <folding>
-            <element signature="e#5711#5712#0" expanded="true" />
-            <element signature="e#5749#5750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/CatelogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2583">
-          <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
-          <folding>
-            <element signature="e#4786#6018#0#JSP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="200" column="19" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/util/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/pojo/PageCut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/NoticeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/detail.css.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="11552" column="30" selection-start-line="11552" selection-start-column="30" selection-end-line="11552" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="191" column="9" lean-forward="true" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/css/detail.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2140,45 +1003,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="148" column="26" lean-forward="true" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="97" column="34" lean-forward="true" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
-          <folding>
-            <element signature="e#2536#2542#0#HTML" expanded="true" />
-            <element signature="e#2542#2548#0#HTML" expanded="true" />
-            <element signature="e#2548#2554#0#HTML" expanded="true" />
-            <element signature="e#2554#2560#0#HTML" expanded="true" />
-            <element signature="e#3064#3070#0#HTML" expanded="true" />
-            <element signature="e#3070#3076#0#HTML" expanded="true" />
-            <element signature="e#3076#3082#0#HTML" expanded="true" />
-            <element signature="e#3082#3088#0#HTML" expanded="true" />
-            <element signature="e#3088#3094#0#HTML" expanded="true" />
-            <element signature="e#3094#3100#0#HTML" expanded="true" />
-            <element signature="e#3100#3106#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="256" column="70" selection-start-line="256" selection-start-column="70" selection-end-line="256" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#3;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/dao/FocusMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2193,20 +1019,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/main-left-info.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="84" column="3" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3402">
@@ -2218,13 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2289">
           <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/focus.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3864">
-          <caret line="184" column="84" selection-start-line="184" selection-start-column="84" selection-end-line="184" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -2263,10 +1068,277 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/dao/NoticeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/impl/NoticeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/WEB-INF/pages/user/updatePwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/focus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="184" column="84" selection-start-line="184" selection-start-column="84" selection-end-line="184" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/main-left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1613" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/userhome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="345" column="1" selection-start-line="345" selection-start-column="1" selection-end-line="345" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/reset_password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#div#1;n#form#0;n#div#0;n#center#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="e#2119#2125#0#HTML" expanded="true" />
+            <element signature="e#2125#2131#0#HTML" expanded="true" />
+            <element signature="e#2131#2137#0#HTML" expanded="true" />
+            <element signature="e#2137#2143#0#HTML" expanded="true" />
+            <element signature="e#2143#2149#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10449" column="31" lean-forward="true" selection-start-line="10449" selection-start-column="31" selection-end-line="10449" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/updatePwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/orders/orders_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/buyerOrders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3024" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="198" column="47" lean-forward="true" selection-start-line="198" selection-start-column="47" selection-end-line="198" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="450" column="47" selection-start-line="450" selection-start-column="47" selection-end-line="450" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="202" column="25" lean-forward="true" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="191" column="48" lean-forward="true" selection-start-line="191" selection-start-column="48" selection-end-line="191" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fafa/controller/NoticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1274">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_like.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
         </state>
       </provider>
     </entry>

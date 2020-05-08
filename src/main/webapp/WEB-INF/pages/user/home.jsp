@@ -221,9 +221,9 @@
                                 <hr>
                                 <br>
                             </c:forEach>
-                            <div id="page" style="center"></div>
+                           <%-- <div id="page" style="center"></div>
                             <!--  <h1> 1 2 3 4 5 下一页 上一页</h1> -->
-                        </div>
+                        </div>--%>
                     </c:if>
                 </div>
             </div>

@@ -57,15 +57,15 @@
         <div id="user_content">
             <div class="basic">
                 <form:form action="../goods/publishGoodsSubmit" method="post" role="form" enctype="multipart/form-data">
-                    <h1 style="margin-left: 210px;">发布物品</h1><hr />
+                    <h1 style="margin-left: 210px;">发布物品</h1><hr/>
                     <div class="changeinfo">
                         <span>物品名：</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input class="in_info" type="text" name="name" placeholder="请输入物品名"/>
+                        <input class="in_info" id="goodsName" type="text" name="name" placeholder="请输入物品名"/>
                         <span>(*必填)</span>
                     </div>
                     <div class="changeinfo">
                         <span>出售价格：</span>
-                        <input class="in_info" type="text" name="price" placeholder="请输入出售价格"/>
+                        <input class="in_info" id="goodsPrice" type="text" name="price" placeholder="请输入出售价格"/>
                         <span>(*必填)</span>
                     </div>
                     <div class="changeinfo">
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <input type="submit" onclick="uploadimg()" class="setting-save" value="发布物品" style="margin-top: 20px;background-color: blue;"/>
+                    <input type="submit" onclick="return pubGoods()" class="setting-save" value="发布物品" style="margin-top: 20px;background-color: blue;"/>
                 </form:form>
             </div>
         </div>
@@ -127,6 +127,24 @@
 </div>
 
 <script>
+    var img_change=false;
+
+    //判断用户填写的商品信息  信息不全不予发布
+    function pubGoods() {
+        var goodsName=$("#goodsName").val();
+        var goodsPrice=$("#goodsPrice").val();
+        if (goodsName!="" && goodsPrice!=""){
+            if (img_change){
+                return true
+            }else {
+                alert("选择图片描述哦亲")
+                return false;
+            }
+        } else {
+            alert("必填项不要漏唷")
+            return false;
+        }
+    }
 
     function change(obj) {
         var reader = new FileReader();	// 实例化一个FileReader对象，用于读取文件
@@ -134,6 +152,8 @@
         //读取File对象的数据
         reader.onload = function(evt){
             img.src = evt.target.result;
+            //修改状态
+            img_change=true;
         }
         reader.readAsDataURL(obj.files[0]);
     }

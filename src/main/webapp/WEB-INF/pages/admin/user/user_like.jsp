@@ -69,7 +69,7 @@
             <div class="form-group">
                 <div class="col-sm-8" style="text-align:center;">
                     <span>手机：</span>
-                    <input type="number" placeholder="请输入正确的手机号~" name="phone" value="${searchuser.phone}"/>
+                    <input type="text" placeholder="请输入正确的手机号~" name="phone" value="${searchuser.phone}"/>
                     <span>昵称：</span>
                     <input type="text" name="username" value="${searchuser.username}"/>
                 </div>

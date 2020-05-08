@@ -202,8 +202,8 @@
             dataType: 'json',
             success: function (json) {
                 if (json.info == "success") {
-                    window.location.reload();
                     alert("恭喜您完成一笔交易")
+                    window.location.reload();
                 }
 
             },

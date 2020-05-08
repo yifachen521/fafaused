@@ -186,12 +186,12 @@
             <ul class="slides" style="height: 400px;">
                 <img src="http://localhost:8080/upload/${goodsExtend.images[0].imgUrl}" width="400px" height="400px"/>
             </ul>
-            <ul class="indicators">
+           <%-- <ul class="indicators">
                 <li class="indicator-item"></li>
                 <li class="indicator-item"></li>
                 <li class="indicator-item"></li>
                 <li class="indicator-item"></li>
-            </ul>
+            </ul>--%>
         </div>
     </div>
     <div class="col s6">
